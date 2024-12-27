@@ -7,11 +7,14 @@ RUN echo "hi..." >index.html
 CMD ["nginx" , "-g" ,"daemon off;"]
 
 
-#To build Dockerfile :
+
+# Instructions to Use:
+
+-To build Dockerfile :
 docker build -t imgname .
-#To check whether image is created using Dockerfile :
+-To check whether image is created using Dockerfile :
 docker images
-#To launch a container using image of this Dockerfile :
+-To launch a container using image of this Dockerfile :
 docker run -d -p80:80 --name nginxcontainer imgname
-#To check whether container is created using image :
+-To check whether container is created using image :
 docker ps
