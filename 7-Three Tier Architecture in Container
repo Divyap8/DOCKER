@@ -100,7 +100,7 @@ server {
 
 - Inside app directory:
 create one directory named myphpcode and inside this directory one index.php file 
-Also create one  one dockerfile file inside app directory
+Also create one dockerfile file inside app directory
 nano Dockerfile
 
  # index.php:
