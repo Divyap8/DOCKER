@@ -151,7 +151,7 @@ WORKDIR /usr/share/nginx/html/
 CMD ["php-fpm"]
 
 - Inside db directory:
-create three files
+create three files DockerFile , init.sql and init.sh 
 nano Dockerfile
 
 FROM mysql
